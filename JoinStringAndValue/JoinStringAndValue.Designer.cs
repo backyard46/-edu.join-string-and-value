@@ -68,7 +68,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(359, 19);
             this.label1.TabIndex = 3;
-            this.label1.Text = "TextResult.Text = \"今は\" + 2000 + 18 + \"年です\"";
+            this.label1.Text = "TextResult.Text = \"今は\" + 2000 + 19 + \"年です\"";
             // 
             // label2
             // 
@@ -77,7 +77,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(304, 19);
             this.label2.TabIndex = 4;
-            this.label2.Text = "TextResult2.Text = 2000 + 18 + \"年です\"";
+            this.label2.Text = "TextResult2.Text = 2000 + 19 + \"年です\"";
             // 
             // JoinStringAndValue
             // 

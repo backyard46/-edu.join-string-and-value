@@ -20,14 +20,14 @@ namespace JoinStringAndValue
         /// <summary>
         /// 文字と数値の結合テスト。
         /// </summary>
+        /// <param name="sender">イベント呼び出し元オブジェクト</param>
+        /// <param name="e">e</param>
         /// <remarks>
         /// ・C#は式の評価を左から順に行う。
         /// ・C#では、文字と数値が足し算されると、数値は文字に自動変換される。
-        /// 　※ただし、これを活用したプログラムはあまり作らないほうが良い。
-        /// 　　後からプログラムを見た人がこのルールを熟知していないと誤読する可能性があるので。
+        /// ※ただし、これを活用したプログラムはあまり作らないほうが良い。
+        /// 後からプログラムを見た人がこのルールを熟知していないと誤読する可能性があるので。
         /// </remarks>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void ButtonGo_Click(object sender, EventArgs e)
         {
             // 文字(string)とintなどの数値を足し算すると、数値は文字に自動変換される
